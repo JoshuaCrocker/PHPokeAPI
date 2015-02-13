@@ -4,11 +4,10 @@ PHP Wrapper for [PokeAPI](http://pokeapi.co)
 
 ## Features
 
-* None
+* Request Class
 
 ## TODO
 
-* Request Class
 * Pokemon Class
 * Type Class
 * Moves Class
