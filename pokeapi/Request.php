@@ -8,7 +8,7 @@ class Request {
 		curl_setopt_array($curl, [
 			CURLOPT_RETURNTRANSFER => 1	
 		]);
-		$this->response = curl_exec($curl);
+		$this->response = json_decode(curl_exec($curl));
 		curl_close($curl);
 	}
 	
