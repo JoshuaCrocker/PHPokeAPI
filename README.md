@@ -7,13 +7,13 @@ PHP Wrapper for [PokeAPI](http://pokeapi.co)
 * Request Class
 * Pokemon Class
 * Type Class
+* Move Class
 
 ## TODO
 
-* Moves Class
-* Abilities Class
-* Descriptions Class
-* Egg Groups Class
-* Sprites Class
-* Games Class
+* Ability Class
+* Description Class
+* Egg Group Class
+* Sprite Class
+* Game Class
 * Extract ID from resource URI
