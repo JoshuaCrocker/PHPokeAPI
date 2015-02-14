@@ -8,10 +8,10 @@ PHP Wrapper for [PokeAPI](http://pokeapi.co)
 * Pokemon Class
 * Type Class
 * Move Class
+* Ability Class
 
 ## TODO
 
-* Ability Class
 * Description Class
 * Egg Group Class
 * Sprite Class
