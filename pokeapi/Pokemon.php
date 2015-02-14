@@ -1,35 +1,4 @@
 <?php
-/*
-	name - the resource name e.g. Bulbasaur.
-	national_id - the id of the resource, this is the National pokedex number of the pokemon.
-	resource_uri - the uri of this resource.
-	created - the creation date of the resource.
-	modified - the last time this resource was modified.
-	abilities - the abilities this pokemon can have.
-	egg_groups - the egg groups this pokemon is in.
-	evolutions - the evolutions this pokemon can evolve into.
-	descriptions - the pokedex descriptions this pokemon has.
-	moves - the moves this pokemon can learn.
-	types - the types this pokemon is.
-	catch_rate - this pokemon's catch rate.
-	species
-	hp
-	attack
-	defense
-	sp_atk
-	sp_def
-	speed
-	total - the total of the above attributes.
-	egg_cycles - number of egg cycles needed.
-	ev_yield - the ev yield for this pokemon.
-	exp - the exp yield from this pokemon.
-	growth_rate - the growth rate of this pokemon.
-	height
-	weight
-	happiness - base happiness for this pokemon.
-	male_femal_ratio - in the format M / F
-*/
-	
 class Pokemon {
 	public $name;
 	public $national_id;
