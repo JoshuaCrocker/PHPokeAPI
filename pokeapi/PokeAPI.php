@@ -8,3 +8,4 @@ require _POKEAPI_BASEDIR_.'/Move.php';
 require _POKEAPI_BASEDIR_.'/Ability.php';
 require _POKEAPI_BASEDIR_.'/EggGroup.php';
 require _POKEAPI_BASEDIR_.'/Description.php';
+require _POKEAPI_BASEDIR_.'/Sprite.php';
