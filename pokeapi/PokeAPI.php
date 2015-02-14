@@ -6,3 +6,4 @@ require _POKEAPI_BASEDIR_.'/Pokemon.php';
 require _POKEAPI_BASEDIR_.'/Type.php';
 require _POKEAPI_BASEDIR_.'/Move.php';
 require _POKEAPI_BASEDIR_.'/Ability.php';
+require _POKEAPI_BASEDIR_.'/EggGroup.php';
