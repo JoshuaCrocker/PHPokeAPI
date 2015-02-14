@@ -1,4 +1,6 @@
 <?php
+namespace PokeAPI;
+
 class Move {
 	public $name;
 	public $id;

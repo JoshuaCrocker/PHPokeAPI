@@ -1,4 +1,6 @@
 <?php
+namespace PokeAPI;
+
 class Sprite {
 	public $name;
 	public $id;

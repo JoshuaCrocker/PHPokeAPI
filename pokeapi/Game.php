@@ -1,4 +1,6 @@
 <?php
+namespace PokeAPI;
+
 class Game {
 	public $name;
 	public $id;

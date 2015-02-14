@@ -16,4 +16,9 @@ PHP Wrapper for [PokeAPI](http://pokeapi.co)
 
 ## TODO
 
-* Extract ID from resource URI
+* Extract ID from resource URIs
+
+## Changelog
+
+* _v1.0_: Initial Release
+* _v1.1_: Added namespacing

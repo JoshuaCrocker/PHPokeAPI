@@ -1,4 +1,6 @@
 <?php
+namespace PokeAPI;
+
 class Ability {
 	public $name;
 	public $id;

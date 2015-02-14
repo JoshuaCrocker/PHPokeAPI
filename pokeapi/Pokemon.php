@@ -1,4 +1,6 @@
 <?php
+namespace PokeAPI;
+
 class Pokemon {
 	public $name;
 	public $national_id;

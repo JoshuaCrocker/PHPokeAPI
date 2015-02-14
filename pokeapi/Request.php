@@ -1,4 +1,6 @@
 <?php
+namespace PokeAPI;
+
 class Request {
 	private $url = 'http://pokeapi.co/';
 	private $response;

@@ -1,4 +1,6 @@
 <?php
+namespace PokeAPI;
+
 class EggGroup {
 	public $name;
 	public $id;

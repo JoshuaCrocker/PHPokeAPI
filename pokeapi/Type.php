@@ -1,4 +1,6 @@
 <?php
+namespace PokeAPI;
+	
 class Type {
 	public $name;
 	public $id;
