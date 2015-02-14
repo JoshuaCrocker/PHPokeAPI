@@ -10,10 +10,10 @@ PHP Wrapper for [PokeAPI](http://pokeapi.co)
 * Move Class
 * Ability Class
 * Egg Group Class
+* Description Class
 
 ## TODO
 
-* Description Class
 * Sprite Class
 * Game Class
 * Extract ID from resource URI
