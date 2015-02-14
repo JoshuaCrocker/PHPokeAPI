@@ -9,7 +9,7 @@ class Game {
 	public $generation;
 	
 	function __construct($id) {
-		$request = new Request('game/'.$id.'/');
+		$request = new Request('api/v1/game/'.$id.'/');
 		$data = ($request->getResponse());
 		
 		// DATA

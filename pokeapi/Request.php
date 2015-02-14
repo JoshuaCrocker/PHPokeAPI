@@ -1,6 +1,6 @@
 <?php
 class Request {
-	private $url = 'http://pokeapi.co/api/v1/';
+	private $url = 'http://pokeapi.co/';
 	private $response;
 	
 	function __construct($url) {

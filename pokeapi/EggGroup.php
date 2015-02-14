@@ -8,7 +8,7 @@ class EggGroup {
 	public $pokemon;
 	
 	function __construct($id) {
-		$request = new Request('egg/'.$id.'/');
+		$request = new Request('api/v1/egg/'.$id.'/');
 		$data = ($request->getResponse());
 		
 		// POKEMON

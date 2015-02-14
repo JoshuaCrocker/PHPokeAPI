@@ -12,7 +12,7 @@ class Move {
 	public $pp;
 	
 	function __construct($id) {
-		$request = new Request('move/'.$id.'/');
+		$request = new Request('api/v1/move/'.$id.'/');
 		$data = ($request->getResponse());
 		
 		// DATA

@@ -9,7 +9,7 @@ class Description {
 	public $pokemon;
 
 	function __construct($id) {
-		$request = new Request('description/'.$id.'/');
+		$request = new Request('api/v1/description/'.$id.'/');
 		$data = ($request->getResponse());
 		
 		// GAMES

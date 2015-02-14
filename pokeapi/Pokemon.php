@@ -31,7 +31,7 @@ class Pokemon {
 	public $male_female_ratio;
 	
 	function __construct($id) {
-		$request = new Request('pokemon/'.$id.'/');
+		$request = new Request('api/v1/pokemon/'.$id.'/');
 		$data = ($request->getResponse());
 		
 		// Abilities

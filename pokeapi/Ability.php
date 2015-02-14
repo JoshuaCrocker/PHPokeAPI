@@ -8,7 +8,7 @@ class Ability {
 	public $description;
 	
 	function __construct($id) {
-		$request = new Request('ability/'.$id.'/');
+		$request = new Request('api/v1/ability/'.$id.'/');
 		$data = ($request->getResponse());
 		
 		// DATA

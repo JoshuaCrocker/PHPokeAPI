@@ -9,7 +9,7 @@ class Sprite {
 	public $image;
 	
 	function __construct($id) {
-		$request = new Request('sprite/'.$id.'/');
+		$request = new Request('api/v1/sprite/'.$id.'/');
 		$data = ($request->getResponse());
 		
 		// POKEMON

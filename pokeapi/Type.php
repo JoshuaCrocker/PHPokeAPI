@@ -13,7 +13,7 @@ class Type {
 	
 	
 	function __construct($id) {
-		$request = new Request('type/'.$id.'/');
+		$request = new Request('api/v1/type/'.$id.'/');
 		$data = ($request->getResponse());
 		
 		// INEFFECTIVE
